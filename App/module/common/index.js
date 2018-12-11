@@ -1,1 +1,1 @@
-import './Common';
+import './common';

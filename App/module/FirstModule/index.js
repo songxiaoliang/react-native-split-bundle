@@ -1,4 +1,4 @@
-import '../common';
+import '../Common';
 import React, { Component } from 'react';
 import {
     Text,
@@ -19,7 +19,7 @@ export default class FirstModule extends Component {
                 </Text>
                 <Image 
                     style={ styles.icon } 
-                    source={ require('../images/icon_1.png') } />
+                    source={ require('../../images/icon_1.png') } />
             </View>
         )
     }
@@ -37,4 +37,4 @@ const styles = StyleSheet.create({
     }
 });
 
-AppRegistry.registerComponent('FisrtModule', () => FirstModule);
+AppRegistry.registerComponent('FirstModule', () => FirstModule);

@@ -1,4 +1,4 @@
-import '../common';
+import '../Common';
 import React, { Component } from 'react';
 import {
     Text,
@@ -17,7 +17,9 @@ export default class SecondModule extends Component {
                 <Text>
                     RN业务模块2
                 </Text>
-                <Image style={ styles.icon } source={ require('../images/icon_2.png') } />
+                <Image 
+                    style={ styles.icon } 
+                    source={ require('../../images/icon_2.png') } />
             </View>
         )
     }
