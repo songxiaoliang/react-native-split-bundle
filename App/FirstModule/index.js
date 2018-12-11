@@ -15,9 +15,11 @@ export default class FirstModule extends Component {
         return (
             <View style={ styles.container }>
                 <Text>
-                    模块1
+                    RN业务模块1
                 </Text>
-                <Image style={ styles.icon } source={ require('../images/tree.png') } />
+                <Image 
+                    style={ styles.icon } 
+                    source={ require('../images/icon_1.png') } />
             </View>
         )
     }

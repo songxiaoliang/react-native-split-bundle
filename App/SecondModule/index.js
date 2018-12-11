@@ -15,9 +15,9 @@ export default class SecondModule extends Component {
         return (
             <View style={ styles.container }>
                 <Text>
-                    模块2
+                    RN业务模块2
                 </Text>
-                <Image style={ styles.icon } source={ require('../images/snowman.png') } />
+                <Image style={ styles.icon } source={ require('../images/icon_2.png') } />
             </View>
         )
     }
