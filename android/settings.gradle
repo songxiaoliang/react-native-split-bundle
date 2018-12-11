@@ -1,0 +1,3 @@
+rootProject.name = 'splitBundle'
+
+include ':app'
