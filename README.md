@@ -1,6 +1,6 @@
 # react-native-split-bundle
-react native bundle split practice
-
+react native bundle 拆分方案实现，实现 ReactContext 延迟异步加载，基础包、业务包按需加载。
+demo 中，RNAndroid 为 Android 原生模块，模仿了在原生App 中嵌入 RN 模块的实现方式。source_code下即为需要修改的打包源码，覆盖即可。
 
 ### RN JSBundle 拆分解决方案（1）: 应用启动、视图加载原理解析
 #### 详情浏览：https://blog.csdn.net/u013718120/article/details/79347331
